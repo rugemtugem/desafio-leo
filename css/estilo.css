@@ -112,9 +112,21 @@ input {
 .carousel, .carousel-inner, .carousel-inner .item {
 	height: 400px;
 }
-/* legenda do slide */
+@media (max-width: 600px) {
+.carousel, .carousel-inner, .carousel-inner .item {
+	height: auto;
+}
+}
 .carousel-caption {
-	top: 10%;
+    top:10%;
+	bottom: auto;
+	text-align: left;
+	background-color: rgba(0,0,0,0.3);
+}
+
+}/* legenda do slide */
+.carousel-caption{
+	top: 0 !important;
 	bottom: auto;
 	text-align: left;
 	background-color: rgba(0,0,0,0.3);
