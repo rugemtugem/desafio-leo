@@ -58,17 +58,20 @@ h1 {
 	max-width: 50px;
 }
 /* -- Buscar cursos -- */
-.mr-auto {
-	margin-left: auto;
-	margin-right: 0 !important;
+.navbar-collapse {
+	right: 0;
+    position: absolute;
 }
 @media (max-width: 600px) {
-.mr-auto {
+.navbar-collapse {
+	position: relative;
+}
+.navbar {
 	margin: 20px;
 }
 .navbar-toggler {
 	right: 20px;
-	top: 50px;
+	top: 25px;
 	position: absolute;
 }
 }
