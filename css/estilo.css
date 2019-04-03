@@ -117,16 +117,9 @@ input {
 	height: auto;
 }
 }
-.carousel-caption {
-    top:10%;
-	bottom: auto;
-	text-align: left;
-	background-color: rgba(0,0,0,0.3);
-}
-
-}/* legenda do slide */
+/* legenda do slide */
 .carousel-caption{
-	top: 0 !important;
+	top: 10% !important;
 	bottom: auto;
 	text-align: left;
 	background-color: rgba(0,0,0,0.3);
